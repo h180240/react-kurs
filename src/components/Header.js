@@ -3,10 +3,12 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{
+      backgroundColor: "#648be0"
+    }}>
       <Toolbar>
         <Typography variant="h6" noWrap>
-          Daily
+          Johannes 3.16
         </Typography>
       </Toolbar>
     </AppBar>
